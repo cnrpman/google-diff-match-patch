@@ -1,3 +1,27 @@
+# Logseq Diff & Merge:
+Block level diff and merge for Logseq
+
+https://github.com/cnrpman/google-diff-match-patch
+
+## Diff:
+**Demo entry:** <repo dir>/demos/demo_logseq.html
+
+**Method:** https://github.com/google/diff-match-patch/wiki/Line-or-Word-Diffs#line-mode
+
+* But change the delimiter from `EOL` to Logseq style block (markdown / org-mode)
+
+* Then transform diff object into the order of the block idx in the original text.
+
+## TODOs:
+- [ ] Merge
+- [ ] Tests
+- [ ] Finalize language choice & rewrite
+- [ ] Org-mode support
+
+---
+
+Original Readmes:
+
 # Diff, Match and Patch
 
 This is a mirror/fork of the [Diff, Match and Patch Library](http://code.google.com/p/google-diff-match-patch/) by Neil Fraser.
